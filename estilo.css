@@ -269,49 +269,49 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.skills .skill .python{
     width: 0%;
-    animation: 2s javascript forwards;
+    animation: 2s python forwards;
 }
-@keyframes javascript {
+@keyframes python {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 60%;}
 }
 
-.skills .skill .htmlcss{
+.skills .skill .sql{
     width: 0%;
-    animation: 2s htmlcss forwards;
+    animation: 2s sql forwards;
 }
-@keyframes htmlcss {
+@keyframes sql {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 60%;}
 }
 
-.skills .skill .photoshop{
+.skills .skill .powerbi{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s powerbi;
 }
-@keyframes photoshop {
+@keyframes powerbi {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 50%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .excel{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s excel forwards;
 }
-@keyframes wordpress {
+@keyframes excel {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .drupal{
+.skills .skill .orange{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s orange forwards;
 }
-@keyframes drupal {
+@keyframes orange {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .comunicacion{

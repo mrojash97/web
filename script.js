@@ -26,11 +26,12 @@ function efectoHabilidades(){
         habilidades[2].classList.add("powerbi");
         habilidades[3].classList.add("excel");
         habilidades[4].classList.add("orange");
-        habilidades[5].classList.add("comunicacion");
-        habilidades[6].classList.add("trabajo");
-        habilidades[7].classList.add("creatividad");
-        habilidades[8].classList.add("dedicacion");
-        habilidades[9].classList.add("proyect");
+        habilidades[5].classList.add("powerapps");
+        habilidades[6].classList.add("comunicacion");
+        habilidades[7].classList.add("trabajo");
+        habilidades[8].classList.add("creatividad");
+        habilidades[9].classList.add("dedicacion");
+        habilidades[10].classList.add("responsabilidad");
     }
 }
 

@@ -367,6 +367,15 @@ html{
     0%{width: 0%;}
     100%{width: 95%;}
 }
+
+.skills .skill .autodidacta{
+    width: 0%;
+    animation: 2s autodidacta forwards;
+}
+@keyframes autodidacta {
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;

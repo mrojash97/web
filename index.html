@@ -367,13 +367,12 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <input type="text" id="nombre" placeholder="Tú Nombre">
+                    <input type="text" id="correo" placeholder="Dirección de correo">
+                    <input type="text" id="tema" placeholder="Tema">
+                    <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="enviarBtn" onclick="enviarWhatsapp()" disabled>
+                        Enviar WhatsApp <i class="fa-brands fa-whatsapp"></i>
                         <span class="overlay"></span>
                     </button>
                 </div>

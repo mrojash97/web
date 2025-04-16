@@ -576,7 +576,7 @@ html{
 }
 .contacto button{
     cursor: pointer;
-    background-color: transparent;
+    background-color: #1CB698;
     border: 2px solid #fff;
     width: fit-content;
     display: block;
@@ -586,6 +586,10 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+}
+
+button:disabled {
+      background-color: #252A2E;
 }
 .contacto button .overlay{
     position: absolute;

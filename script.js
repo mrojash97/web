@@ -35,7 +35,55 @@ function efectoHabilidades(){
         habilidades[11].classList.add("autodidacta");
     }
 }
+// Habilitar o deshabilitar el botón según si los campos están llenos
+    document.getElementById('nombre').addEventListener('input', validarFormulario);
+    document.getElementById('correo').addEventListener('input', validarFormulario);
+    document.getElementById('tema').addEventListener('input', validarFormulario);
+    document.getElementById('mensaje').addEventListener('input', validarFormulario);
 
+    function validarFormulario() {
+      const nombre = document.getElementById('nombre').value;
+      const correo = document.getElementById('correo').value;
+      const tema = document.getElementById('tema').value;
+      const mensaje = document.getElementById('mensaje').value;
+      const enviarBtn = document.getElementById('enviarBtn');
+
+      // Habilita el botón si todos los campos están llenos
+      if (nombre && correo && tema && mensaje) {
+        enviarBtn.disabled = false;
+      } else {
+        enviarBtn.disabled = true;
+      }
+    }
+
+    function enviarWhatsapp() {
+      var nombre = document.getElementById("nombre").value;
+      var correo = document.getElementById("correo").value;
+      var tema = document.getElementById("tema").value;
+      var mensaje = document.getElementById("mensaje").value;
+      
+      var telefono = "521234567890"; // Cambia por tu número
+      var texto = `Hola, mi nombre es ${nombre}%0A%0A`; // Corregir la concatenación
+      texto += `Mi correo es: ${correo}%0A%0A`;
+      texto += `Tema: ${tema}%0A%0A`;
+      texto += `Mensaje:%0A${mensaje}`;
+      var url = `https://wa.me/${telefono}?text=${texto}`;
+
+      // Redirigir al enlace de WhatsApp
+      window.open(url, "_blank");
+
+      // Limpiar los campos después de enviar
+      limpiarFormulario();
+    }
+
+    // Función para limpiar los campos del formulario
+    function limpiarFormulario() {
+      document.getElementById("nombre").value = "";
+      document.getElementById("correo").value = "";
+      document.getElementById("tema").value = "";
+      document.getElementById("mensaje").value = "";
+      document.getElementById("enviarBtn").disabled = true; // Deshabilitar el botón
+    }
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){

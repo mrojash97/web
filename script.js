@@ -104,16 +104,15 @@ const pdfUrls = {
             if (visibleState[id]) {
                 iframe.src = "";
                 iframe.style.display = "none";
-                link.textContent = `Ver PDF ${id}`;
+                link.textContent = `Ver Certificado ${id}`;
             } else {
                 iframe.src = pdfUrls[id];
                 iframe.style.display = "block";
-                link.textContent = `Ocultar PDF ${id}`;
+                link.textContent = `Ocultar Certificado ${id}`;
             }
 
             visibleState[id] = !visibleState[id];
         }
-
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();

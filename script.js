@@ -104,11 +104,11 @@ const pdfUrls = {
             if (visibleState[id]) {
                 iframe.src = "";
                 iframe.style.display = "none";
-                link.textContent = `Ver Certificado ${id}`;
+                link.textContent = `Ver PDF ${id}`;
             } else {
                 iframe.src = pdfUrls[id];
                 iframe.style.display = "block";
-                link.textContent = `Ocultar Certificado ${id}`;
+                link.textContent = `Ocultar PDF ${id}`;
             }
 
             visibleState[id] = !visibleState[id];

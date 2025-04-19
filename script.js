@@ -95,24 +95,6 @@ const pdfUrls = {
             7: "https://drive.google.com/file/d/ID7/preview"
         };
 
-        const visibleState = {};
-
-        function togglePDF(id) {
-            const iframe = document.getElementById(`visorPDF${id}`);
-            const link = document.querySelectorAll('.enlace-pdf')[id - 1];
-
-            if (visibleState[id]) {
-                iframe.src = "";
-                iframe.style.display = "none";
-                link.textContent = `Ver PDF ${id}`;
-            } else {
-                iframe.src = pdfUrls[id];
-                iframe.style.display = "block";
-                link.textContent = `Ocultar PDF ${id}`;
-            }
-
-            visibleState[id] = !visibleState[id];
-        }
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();

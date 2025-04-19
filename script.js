@@ -85,6 +85,35 @@ function efectoHabilidades(){
       document.getElementById("enviarBtn").disabled = true; // Deshabilitar el botón
     }
 
+const pdfUrls = {
+            1: "https://drive.google.com/file/d/1fTYqGJOZ9UIppNCDQksKuUz75OmLyQc2/preview",  // Reemplaza con los IDs reales
+            2: "https://drive.google.com/file/d/ID2/preview",
+            3: "https://drive.google.com/file/d/ID3/preview",
+            4: "https://drive.google.com/file/d/1fTYqGJOZ9UIppNCDQksKuUz75OmLyQc2/preview",
+            5: "https://drive.google.com/file/d/ID5/preview",
+            6: "https://drive.google.com/file/d/ID6/preview",
+            7: "https://drive.google.com/file/d/ID7/preview"
+        };
+
+        const visibleState = {};
+
+        function togglePDF(id) {
+            const iframe = document.getElementById(`visorPDF${id}`);
+            const link = document.querySelectorAll('.enlace-pdf')[id - 1];
+
+            if (visibleState[id]) {
+                iframe.src = "";
+                iframe.style.display = "none";
+                link.textContent = `Ver PDF ${id}`;
+            } else {
+                iframe.src = pdfUrls[id];
+                iframe.style.display = "block";
+                link.textContent = `Ocultar PDF ${id}`;
+            }
+
+            visibleState[id] = !visibleState[id];
+        }
+
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
     efectoHabilidades();

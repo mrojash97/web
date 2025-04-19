@@ -482,6 +482,33 @@ html{
     position: relative;
     bottom: 4px;
 }
+
+.enlace-pdf {
+            display: block;
+            color: #1CB698;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .visorPDF {
+            display: none;
+            width: 100%;
+            height: 80vh;
+            border: none;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 600px) {
+            .visorPDF {
+                height: 60vh;
+            }
+
+            .enlace-pdf {
+                font-size: 16px;
+            }
+}
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;

@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portafolio</title>
+	<title>Mi Web</title>
+	<script>
+        let i = 0;
+        const emojis = ["🔥", "🚀", "💡"];
+        setInterval(() => {
+            document.title = emojis[i++ % emojis.length] + " MI WEB";
+        }, 1000); // Aquí va la coma para separar los argumentos
+    </script>
+	
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>

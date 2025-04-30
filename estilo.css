@@ -553,6 +553,26 @@ html{
     }
 
 /* SECCION PORTFOLIO */
+
+.tech {
+      background-color: #005fa3;
+      padding: 3px 8px;
+      margin: 2px;
+      border-radius: 4px;
+      display: inline-block;
+      font-size: 0.8em;
+    }
+
+    .tech.sql {
+      background-color: #d19a00;
+    }
+
+    .texto-reducido {
+      font-family: 'Work Sans', monospace; /* Cambia por la fuente que quieras */
+      font-size: 0.85em; /* Tamaño más pequeño */
+      color: #fff;
+    }
+
 .portfolio{
     background-color: #252A2E;
     color: #fff;
@@ -608,6 +628,25 @@ html{
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+
+.boton-ver {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #00b894;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  font-size: 0.95em;
+}
+
+.boton-ver:hover {
+  background-color: #019875;
+}
+
+
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);

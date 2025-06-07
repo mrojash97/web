@@ -178,9 +178,54 @@ html{
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
     background-color: #1CB698;
 }
-.sobremi .fila .col .contenedor-intereses .interes i{
-    font-size: 30px;
-    margin-bottom: 10px;
+.excel {
+    display: inline-block;
+    width: 90px;  /* Ajusta el tamaño según sea necesario */
+    height: 90px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('img/excel.png');
+justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tableau {
+    display: inline-block;
+    width: 90px;  /* Ajusta el tamaño según sea necesario */
+    height: 90px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('img/tableau.png');
+justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sql {
+    display: inline-block;
+    width: 90px;  /* Ajusta el tamaño según sea necesario */
+    height: 90px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('img/SQL.png');
+justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.powerbi {
+    display: inline-block;
+    width: 90px;  /* Ajusta el tamaño según sea necesario */
+    height: 90px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('img/POWERBI.png');
+justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.python {
+    display: inline-block;
+    width: 90px;  /* Ajusta el tamaño según sea necesario */
+    height: 90px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('img/Python.png');
+justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .sobremi button{
     cursor: pointer;

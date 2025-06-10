@@ -63,7 +63,7 @@ function efectoHabilidades(){
       var mensaje = document.getElementById("mensaje").value;
       
       var telefono = "51956273115"; // Cambia por tu número
-      var texto = `Hola, mi nombre es ${nombre}%0A%0A`; // Corregir la concatenación
+      var texto = `Hola, mi nombre es: ${nombre}%0A%0A`; // Corregir la concatenación
       texto += `Mi correo es: ${correo}%0A%0A`;
       texto += `Tema: ${tema}%0A%0A`;
       texto += `Mensaje:%0A${mensaje}`;

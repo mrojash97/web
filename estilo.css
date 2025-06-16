@@ -180,6 +180,7 @@ text-align: center;
 .Skills .fila .col .contenedor-intereses{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 .Skills .fila .col .contenedor-intereses .interes{

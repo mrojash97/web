@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+	
+	<title>Marlon Rojas | Analista de Datos | Data Analyst</title>
+	<meta name="description" content="Portafolio profesional de Marlon Rojas, ingeniero de sistemas y analista de datos. Experiencia en Power BI, Python, SQL y análisis de datos.">
+	<meta name="keywords" content="Marlon Rojas, analista de datos, data analyst, portafolio, Excel, Power BI, Python, SQL, dashboards, MR, Marlon Rojas Huaripata">
+	
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">
+		<img src="img/logo.png" alt="Logo" class="logo-img"> <!-- Logo -->
+                Marlon <!-- Nombre --></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="sobre-mi.html">SOBRE MI</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+		    <li><a href="#articulo" onclick="seleccionar()">ARTICULOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/MARLON.png" alt="Foto de Marlon Rojas, Analista de Datos">
+            </div>
+            <h1>MARLON ROJAS</h1>
+            <h2>Ing. de Sistemas - Data Analyst</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/marlon-rojas/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/mrojash97"><i class="fa-brands fa-github"></i></i></a>
+	        <a href="https://wa.me/51956273115?text=¡Hola,%20Marlon.%20 Me%20interesa%20tu%20portafolio!"><i class="fa-brands fa-whatsapp"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION Skills -->
+    <section id="Skills" class="Skills">
+        <div class="contenido-seccion">
+            <p style="text-align: center;"><span>Convierto los datos en decisiones: análisis y visualización para generar impacto. </span></p>
+
+            <div class="fila">
+                
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="excel"></i>
+                            <span>EXCEL</span>
+                        </div>
+			<div class="interes">
+                            <i class="tableau"></i>
+                            <span>TABLEAU</span>
+                        </div>
+                        <div class="interes">
+                            <i class="sql"></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="powerbi"></i>
+                            <span>POWER BI</span>
+                        </div>
+                        <div class="interes">
+                            <i class="python"></i>
+                            <span>PYTHON</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTAFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+		    <div class="overlay">
+                    	<h3>📊 ANÁLISIS - EDA</h3>
+			<h3>Supermarket Sales</h3>
+			<br>
+      		    	<p class="texto-reducido">Análisis y visualización de los datos de ventas de un supermercado y sus sedes, con el objetivo de comprender el comportamiento de las ventas, los productos y los clientes.</p>
+			<p>
+    			  <span class="tech">Python</span> · 
+     			  <span class="tech">Pandas</span> · 
+      			<!--  <span class="tech sql">SQL</span>-->
+    			</p>
+			<!-- Enlace tipo botón -->
+    			<a href="https://github.com/mrojash97/dataanalytics/blob/main/Python/AN%C3%81LISIS_EDA_Supermarket_Sales.ipynb" target="_blank" class="boton-ver">Ver proyecto</a>
+		     </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                   <div class="overlay">
+                    	<h3>🧠 MACHINE LEARNING</h3>
+			<br>
+      		    	<p class="texto-reducido">Análisis de RR.HH. mediante Machine Learning: Desarrollo de un modelo de aprendizaje supervisado para identificar los perfiles de empleados con mayor propensión a la fuga, y determinar los factores más influyentes en la fuga.</p>
+			<p>
+    			  <span class="tech">Python</span> · 
+			  <span class="tech">Machine Learning</span> · 
+      			<!--  <span class="tech sql">SQL</span>-->
+    			</p>
+			<!-- Enlace tipo botón -->
+    			<a href="https://github.com/mrojash97/dataanalytics/blob/main/Python/ML%20en%20RRHH.ipynb" target="_blank" class="boton-ver">Ver proyecto</a>
+		     </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Pronto</h3>
+                        <p>En proceso</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- SECCION ARTICULOS -->
+    <section id="articulo" class="articulo">
+        <div class="contenido-seccion">
+  <h2>ARTÍCULOS</h2>
+
+  <div class="swiper">
+    <div class="swiper-wrapper" id="medium-slider">
+      <!-- Slides se insertan aquí dinámicamente -->
+    </div>
+
+    <!-- Controles -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" id="nombre" placeholder="Tú Nombre">
+                    <input type="text" id="correo" placeholder="Dirección de correo">
+                    <input type="text" id="tema" placeholder="Tema">
+                    <textarea id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="enviarBtn" onclick="enviarWhatsapp()" disabled>
+                        Enviar WhatsApp <i class="fa-brands fa-whatsapp"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <div class="map-container">
+                        
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <p style="text-align: center;">
+ 				 <span style="font-weight: bold; color: #1CB698; font-size: 30px; font-family: 'Righteous'">Contactame</span>
+				</p>
+                                
+                            </li>
+			    <li>
+  				<p style="text-align: center;">
+   				 <i class="fa-solid fa-hand-point-down" style="font-size: 40px; color: #1CB698; animation: jump 1s infinite; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);"></i>
+  				</p>
+			    </li>
+
+			    <style>
+ 				 @keyframes jump {
+   				 0% {
+    				  transform: translateY(0);
+   				 }
+    				50% {
+     				 transform: translateY(-10px); /* Salto hacia arriba */
+    				}
+    				100% {
+     				 transform: translateY(0);
+    				}
+ 				 }
+			    </style>
+			    <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                 +51 956 273 115 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                mrojash97@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+                <a href="https://www.linkedin.com/in/marlon-rojas/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/mrojash97"><i class="fa-brands fa-github"></i></i></a>
+		<a href="https://wa.me/51956273115?text=¡Hola,%20Marlon.%20 Me%20interesa%20tu%20portafolio!"><i class="fa-brands fa-whatsapp"></i></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script>
+  const username = "mrojash97"; // Reemplaza con tu usuario Medium sin '@'
+
+  fetch(`https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${username}`)
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById('medium-slider');
+
+      data.items.slice(0, 5).forEach(item => {
+        const cleanContent = item.content.replace(/<[^>]+>/g, '');
+        const excerpt = cleanContent.substring(0, 300) + '...';
+
+        const slide = document.createElement('div');
+        slide.className = 'swiper-slide';
+        slide.innerHTML = `
+          <h3><a href="${item.link}" target="_blank" rel="noopener noreferrer">${item.title}</a></h3>
+          <p><strong>${new Date(item.pubDate).toLocaleDateString()}</strong></p>
+          <p class="excerpt">${excerpt}</p>
+          <p><a class="read-more" href="${item.link}" target="_blank" rel="noopener noreferrer">Leer más →</a></p>
+        `;
+        container.appendChild(slide);
+      });
+
+      new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev'
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+        }
+      });
+    })
+    .catch(err => console.error("Error al cargar Medium:", err));
+</script>
+</body>
+</html>

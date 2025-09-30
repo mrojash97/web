@@ -169,6 +169,14 @@ html{
 }
 
 
+.Skills .contenido-seccion h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+text-align: center;
+}
+
+
 .Skills .fila .col h3{
     font-size: 28px;
     font-family: 'Righteous';

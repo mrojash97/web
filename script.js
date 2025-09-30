@@ -86,7 +86,7 @@ function efectoHabilidades(){
     }
 
 const pdfUrls = {
-      1: "https://drive.google.com/file/d/ID2/preview",
+      1: "https://drive.google.com/file/d/1kF5LZGtVYvwxwcotz79YzIaihtOvS_Hw/preview",
       2: "https://drive.google.com/file/d/1ldKBaGbmOgzuPMddeoJkTSxo7oImBdpE/preview",
       3: "https://drive.google.com/file/d/1Sl8xGgrzBgoNA34_19Po_jEw0ulFIJZl/preview",
       4: "https://drive.google.com/file/d/1fTYqGJOZ9UIppNCDQksKuUz75OmLyQc2/preview",
